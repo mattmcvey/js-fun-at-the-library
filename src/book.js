@@ -12,22 +12,6 @@ function buildMainCharacter(name, age, pronouns) {
 }
 
 function saveReview(reviewsText, reviewsArray) {
-  // var finalReviews = [];
-  // reviewsArray.push(reviewsText)
-  // for (var i = 0; i < reviewsArray.length; i++) {
-  //   var duplicate = false;
-  //   for(var j = 0; j < finalReviews.length; j++){
-  //     if(reviewsArray[i] === finalReviews[j]){
-  //       duplicate = true;
-  //       break;
-  //     }
-  //   }
-  //   if(!duplicate) {
-  //     finalReviews.push(reviewsArray[i])
-  //   }
-  // }
-  // return finalReviews;
-
   if(reviewsArray.includes(reviewsText)) {
     return
   } else {
